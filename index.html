@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tunis Birthday 2026</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <header class="hero">
+            <p class="subtitle">Join us for a</p>
+            <h1>Birthday in Tunisia</h1>
+            <p class="subtitle">April 18th - 23rd, 2026</p>
+        </header>
+
+        <!-- Countdown -->
+        <div class="glass-card countdown-box">
+            <div class="time-unit"> <span class="number" id="days">00</span> <span class="label">Days</span> </div>
+            <div class="time-unit"> <span class="number" id="hours">00</span> <span class="label">Hrs</span> </div>
+            <div class="time-unit"> <span class="number" id="minutes">00</span> <span class="label">Mins</span> </div>
+            <div class="time-unit"> <span class="number" id="seconds">00</span> <span class="label">Secs</span> </div>
+        </div>
+
+        <!-- Overview -->
+        <div class="glass-card overview">
+            <h3 style="margin-bottom: 1rem; text-align: center;">Trip Overview</h3>
+            <div class="overview-dates">
+                <p>📍 <span class="highlight">Tunis</span>: April 18th – 20th</p>
+                <p>📍 <span class="highlight">Hammamet</span>: April 20th – 23rd</p>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem; text-align: center;">A warm welcome awaits you!</p>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <nav class="tabs-nav">
+            <button class="tab-btn active" data-target="hammamet">Hammamet</button>
+            <button class="tab-btn" data-target="tunis">Tunis</button>
+            <button class="tab-btn" data-target="info">Information</button>
+        </nav>
+
+        <!-- Tab Contents -->
+        <main>
+            <!-- Hammamet Tab -->
+            <section id="hammamet" class="tab-content active">
+                <div class="glass-card location-card">
+                    <h2>The Villa</h2>
+                    <p style="margin-bottom: 1rem; color: #666;">Experience luxury by the sea</p>
+                    
+                    <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=80');">
+                        <!-- Fallback text if image fails -->
+                    </div>
+                    
+                    <div class="status-badge status-booked">Reservation: Fully Booked</div>
+                    
+                    <a href="https://apolonya.com/" target="_blank" class="action-btn">View Villa</a>
+                    <a href="https://www.instagram.com/apolonya_hammamet/" target="_blank" class="secondary-link">📸 See on Instagram</a>
+                </div>
+            </section>
+
+            <!-- Tunis Tab -->
+            <section id="tunis" class="tab-content">
+                <div class="glass-card location-card">
+                    <h2>Saturday Dinner</h2>
+                    <p style="margin-bottom: 1rem; color: #666;">Dar El Jeld</p>
+                    
+                    <div class="image-placeholder" style="background-image: url('https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?auto=format&fit=crop&w=600&q=80');">
+                         <!-- Fallback text -->
+                    </div>
+
+                    <div class="status-badge status-booked">Reservation: Booked</div>
+
+                    <a href="https://www.dareljeld.com/" target="_blank" class="action-btn">View Restaurant</a>
+                    <a href="https://www.instagram.com/dareljeld/?hl=en" target="_blank" class="secondary-link">📸 See on Instagram</a>
+                </div>
+            </section>
+
+            <!-- Information Tab (Itinerary) -->
+            <section id="info" class="tab-content">
+                <div class="glass-card">
+                    <h2 style="margin-bottom: 1.5rem; text-align: center;">Itinerary</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">📍 Tunis (Apr 18-20)</span>
+                            <p>Exploring the historic <strong>Medina</strong> and taking a cultural tour in <strong>Sidi Bou Said</strong>.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-date">📍 Hammamet (Apr 20-23)</span>
+                            <p>Relaxing at the villa and exploring the <strong>Medina of Hammamet</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
